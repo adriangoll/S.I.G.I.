@@ -1,0 +1,9 @@
+{
+  "type": "frontend",
+  "localPort": 5173,
+  "scope": "codebase",
+  "pathname": "/#carreras",
+  "localEndpoint": "http://localhost:5173/#carreras",
+  "needLogin": false,
+  "projectPath": "d:\\Juan\\Programming\\Insti Santa Rosa\\TercerAno\\SIGI\\Sistema\\SIGI-FRONT"
+}

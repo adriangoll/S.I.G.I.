@@ -1,0 +1,3 @@
+ALTER TABLE carreras
+ADD COLUMN modalidad VARCHAR(50) NULL DEFAULT NULL
+AFTER dossier;

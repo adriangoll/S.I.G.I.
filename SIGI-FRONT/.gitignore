@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# TypeScript build artifacts (Vite hace el bundling, tsc no debe emitir)
+*.tsbuildinfo
+*.js.map
+vite.config.js
+
+# Artefactos JS espejo en src (Vite compila desde .ts/.tsx)
+src/**/*.js
+src/**/*.js.map
+
+# Variables de entorno (usar .env.example como referencia)
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.cursorrules
+.cursorrules
+*.md
+
+# Playwright/Test reports
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+testsprite_tests/
+testsprite_tests/**
+
+# Coverage reports
+coverage/
+
+# Test files (local only)
+src/features/admin/__tests__/
+src/features/docente/__tests__/
+src/test/
+
+testsprite_tests\tmp\config.json

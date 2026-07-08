@@ -1,0 +1,1 @@
+export { useAuthEstudiante } from '../context/AuthEstudianteContext';
